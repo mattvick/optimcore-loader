@@ -16,6 +16,17 @@
 
     var _op_cor_account_id = _opCorGetParameterByName('a');
 
+    console.log('_op_cor_account_id: '+_op_cor_account_id);
+
+
+    var scripts = document.getElementsByTagName('script');
+    var lastScript = scripts[scripts.length-1];
+    var scriptName = lastScript.src;
+    // alert("loading: " + scriptName);
+
+    console.log('scriptName: '+scriptName);
+
+
     if (typeof jQuery === "undefined") {
         _opCorLoadScript('https://code.jquery.com/jquery-1.4.2.min.js');
     }
