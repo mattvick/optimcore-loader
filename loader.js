@@ -38,13 +38,12 @@ function _opCorLoadScript(src) {
   _opCorLoadScript('//www.optimcore.com/deploy/v1/settings.js?a='+_op_cor_account_id+'&url='+encodeURIComponent(document.URL)+'&random='+Math.random());
 
   // jQuery
-  // if (typeof window.jQuery === "undefined") {
-  //   _opCorLoadScript("//code.jquery.com/jquery-1.4.2.min.js");
-  // }
+  if (typeof window.jQuery === "undefined") {
+    _opCorLoadScript("//code.jquery.com/jquery-1.4.2.min.js");
+  }
 
   // optcor
-  document.write('<s'+'cript type="text/javascript">if ("boolean" == typeof(_op_cor_settings_loaded)) { _opCorLoadScript("optcor.js"); }<\/s'+'cript>');
-  // document.write('<s'+'cript type="text/javascript">if ("boolean" == typeof(_op_cor_settings_loaded)) { _opCorLoadScript("//d3062rhc5ksps0.cloudfront.net/optcor_no_jquery.js"); }<\/s'+'cript>');
+  document.write('<s'+'cript type="text/javascript">if ("boolean" == typeof(_op_cor_settings_loaded)) { _opCorLoadScript("//d3062rhc5ksps0.cloudfront.net/optcor_no_jquery.js"); }<\/s'+'cript>');
 
   // init
   document.write('<s'+'cript type="text/javascript">if ("boolean" == typeof(_op_cor_settings_loaded) && "function" == typeof(_op_cor_top_initialize)) { _op_cor_top_initialize(); opc_$(document).ready(function() { _op_cor_bottom_initialize(); }); }<\/s'+'cript>');
