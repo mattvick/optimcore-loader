@@ -21,7 +21,7 @@
     }
 
     _opCorLoadScript('//www.optimcore.com/deploy/v1/settings.js?a='+_op_cor_account_id+'&url='+encodeURIComponent(document.URL)+'&random='+Math.random());
-    _opCorLoadScript('/init.js');
-    _opCorLoadScript('/run.js');
+    _opCorLoadScript('init.js');
+    _opCorLoadScript('run.js');
 
 })();
