@@ -55,7 +55,6 @@ function _opCorLoadScript(src) {
     // if ("boolean" == typeof(_op_cor_settings_loaded)) { document.write('<s'+'cript src="//d3062rhc5ksps0.cloudfront.net/optcor.js" type="text/javascript">'+'<\/s'+'cript>'); }
 
     // init
-    document.write('<s'+'cript type="text/javascript">if ("boolean" == typeof(_op_cor_settings_loaded) && "function" == typeof(_op_cor_top_initialize)) { _op_cor_top_initialize(); opc_$(document).ready(function() { _op_cor_bottom_initialize(); });<\/s'+'cript>');  
-}
+    document.write('<s'+'cript type="text/javascript">if ("boolean" == typeof(_op_cor_settings_loaded) && "function" == typeof(_op_cor_top_initialize)) { _op_cor_top_initialize(); opc_$(document).ready(function() { _op_cor_bottom_initialize(); }); }<\/s'+'cript>');
 
 })();
