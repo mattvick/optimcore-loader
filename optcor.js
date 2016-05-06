@@ -50,7 +50,7 @@ function _opCorLoadScript(src) {
     // _opCorLoadScript('run.js');
 
     // optcor
-    document.write('<s'+'cript type="text/javascript">if ("boolean" == typeof(_op_cor_settings_loaded)) { _opCorLoadScript("//d3062rhc5ksps0.cloudfront.net/optcor.js"); }<\/s'+'cript>');
+    document.write('<s'+'cript type="text/javascript">if ("boolean" == typeof(_op_cor_settings_loaded)) { _opCorLoadScript("//d3062rhc5ksps0.cloudfront.net/optcor_no_jquery.js"); }<\/s'+'cript>');
 
     // if ("boolean" == typeof(_op_cor_settings_loaded)) { document.write('<s'+'cript src="//d3062rhc5ksps0.cloudfront.net/optcor.js" type="text/javascript">'+'<\/s'+'cript>'); }
 
