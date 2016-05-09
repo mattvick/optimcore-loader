@@ -1,0 +1,45 @@
+<html><head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <title>Optimcore Loader</title>
+    <!-- Optional jQuery -->
+    <!-- <script src="https://code.jquery.com/jquery-1.12.3.min.js" integrity="sha256-aaODHAgvwQW1bFOGXMeX+pC4PZIPsvn2h1sArYOhgXQ=" crossorigin="anonymous"></script> -->
+    <!-- //Optional jQuery -->
+
+    <!-- Optimcore Loader Code -->
+    <script src="loader.js?a=185648" type="text/javascript"></script>
+
+    <style type="text/css"></style>
+
+    <script src="//www.optimcore.com/deploy/v1/settings.js?a=185648&amp;url=http%3A%2F%2Foptimcore-loader.matthewvickery.org%2F&amp;random=0.18214744660964755" type="text/javascript"></script>
+
+    <script src="//code.jquery.com/jquery-1.4.2.min.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+        if ("boolean" == typeof(_op_cor_settings_loaded)) { 
+            document.write('<s'+'cript src="//d3062rhc5ksps0.cloudfront.net/optcor_no_jquery.js" type="text/javascript">'+'</s'+'cript>'); 
+        }
+    </script>
+
+    <script src="//d3062rhc5ksps0.cloudfront.net/optcor_no_jquery.js" type="text/javascript"></script>
+    
+    <script type="text/javascript">
+        if ("boolean" == typeof(_op_cor_settings_loaded) && "function" == typeof(_op_cor_top_initialize)) { 
+            _op_cor_top_initialize(); 
+            opc_$(document).ready(function() { 
+                _op_cor_bottom_initialize(); 
+            }); 
+        }
+    </script>
+    
+    <span style="display:none" id="opc_temp"><p></p></span>
+    
+    <!-- // Optimcore Loader Code -->
+  </head>
+  <body>
+    <h1>Optimcore Loader</h1>
+    <p class="opc_loaded" style="font-size: 26px; color: rgb(0, 127, 63);">Test content.</p>
+    <p><a href="goal.html">Goal</a></p>
+  
+</body></html>
