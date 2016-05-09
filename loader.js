@@ -11,8 +11,7 @@
   /**
    * basic validation
    */
-  if (!isNaN(matches[1])) {
-    console.log('matches[1] is an integer');
+  if (isNaN(matches[1])) {
     return;
   }
 
