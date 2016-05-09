@@ -35,7 +35,7 @@
   var scripts = document.getElementsByTagName('script');
   var parser = document.createElement('a');
   parser.href = scripts[scripts.length-1].src;
-  var matches = str.match(/a=([^&]*)/);
+  var matches = parser.search.match(/a=([^&]*)/);
 
   // var _op_cor_account_id = matches[1];
   // var _op_cor_account_id = _opCorGetParameterByName('a', _opCorGetScriptUrl());
