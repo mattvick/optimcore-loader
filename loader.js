@@ -8,9 +8,12 @@
   parser.href = scripts[scripts.length-1].src;
   var matches = parser.search.match(/a=([^&]*)/);
 
-
-  if (matches[1] === parseInt(matches[1], 10)){
+  /**
+   * basic validation
+   */
+  if (isNaN(matches[1]) {
     console.log('matches[1] is an integer');
+    return;
   }
 
   /**
