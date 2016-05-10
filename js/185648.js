@@ -7,7 +7,7 @@
   // var a = url.substring(url.lastIndexOf("/") + 1, url.lastIndexOf("."));
 
   var scripts = document.getElementsByTagName('script');
-  var url = scripts[scripts.length-1].src;
+  var url = scripts[scripts.length - 1].src;
   var a = url.substring(url.lastIndexOf('/') + 1, url.lastIndexOf('.'));
 
   // console.log('a: '+a);
