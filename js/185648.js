@@ -34,7 +34,7 @@
   /**
    * load Optimcore
    */
-  document.write('<s'+'cript type="text/javascript">if ("boolean" == typeof(_op_cor_settings_loaded)) { document.write(\'<s\'+\'cript src="//d3062rhc5ksps0.cloudfront.net/optcor_no_jquery.js" type="text/javascript">\'+\'<\/s\'+\'cript>\'); }<\/s'+'cript>');
+  document.write("<script type=\"text/javascript\">if (\"boolean\" == typeof(_op_cor_settings_loaded)) { document.write('<s'+'cript src=\"//code.optimcore.com/optcor.js\" type=\"text/javascript\">'+'</s'+'cript>'); }</script>");
 
   /**
    * initialise Optimcore
